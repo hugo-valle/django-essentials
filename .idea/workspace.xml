@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89163d59-ec04-4313-8313-7c5b3591aed6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/static/music/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/static/music/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/models.py" afterPath="$PROJECT_DIR$/music/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/urls.py" afterPath="$PROJECT_DIR$/music/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/views.py" afterPath="$PROJECT_DIR$/music/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/music/detail.html" afterPath="$PROJECT_DIR$/templates/music/detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/music/index.html" afterPath="$PROJECT_DIR$/templates/music/index.html" />
     </list>
     <ignored path="essentials.iws" />
@@ -71,8 +63,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/music/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -571,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485109599694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add bootstrap to music index page">
+      <created>1485231342397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485231342397</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -635,7 +634,8 @@
     <MESSAGE value="Modify html template and add python code" />
     <MESSAGE value="Use render instead of loader&#10;Add new music/detail.html page" />
     <MESSAGE value="Update detail.html to display album details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update detail.html to display album details" />
+    <MESSAGE value="Add bootstrap to music index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap to music index page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -821,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding />
         </state>
       </provider>
