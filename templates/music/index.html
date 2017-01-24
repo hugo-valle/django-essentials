@@ -1,3 +1,22 @@
+<!-- Load the path to yoru static files -->
+{% load staticfiles %}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <div class="nav-header">
+            <a class="navbar-brand" href="{% url 'music:index' %}">Guango</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Body -->
 {% if all_albums %}
     <h3>Here are all my albums:</h3>
     <ul>
@@ -8,4 +27,4 @@
 {% else %}
     <h3>You do not have any albums</h3>
 
-{% endif %}
+{% endif %}'
